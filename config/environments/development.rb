@@ -42,6 +42,4 @@ Rails.application.configure do
   # Set Action Cable server url for consumer connection
   config.action_cable.allowed_request_origins = ["http://192.168.17.198"]
   config.action_cable.url = '/cable'
-  #config.action_cable.disable_request_forgery_protection = true
-  
 end
