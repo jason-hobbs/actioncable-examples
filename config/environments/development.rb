@@ -40,6 +40,6 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   # Set Action Cable server url for consumer connection
-  config.action_cable.allowed_request_origins = ["http://192.168.17.198"]
+  config.action_cable.allowed_request_origins = ["http://localhost:3000"]
   config.action_cable.url = '/cable'
 end
